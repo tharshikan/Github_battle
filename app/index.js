@@ -12,10 +12,7 @@ class App extends Component{
 
     }
 }
-class App extends Component{
-    render(){}
 
-}
 ReactDOM.render(
     <App />,
     document.getElementById('app')
