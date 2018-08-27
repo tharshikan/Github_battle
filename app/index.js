@@ -1,7 +1,9 @@
+
+/* @flow */
 import React,{Component} from 'react';
 import ReactDOM from "react-dom";
 
-class App extends Component{
+class App extends Component<{name?:string}>{
 
     render(){
         return (
@@ -15,5 +17,6 @@ class App extends Component{
 
 ReactDOM.render(
     <App />,
-    document.getElementById('app')
+    (document.getElementById('app'):any)
   );
+
