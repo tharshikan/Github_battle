@@ -2,43 +2,11 @@
 /* @flow */
 import React,{Component} from 'react';
 import ReactDOM from "react-dom";
+import Badge from './Badge.js'
+import type {User} from './Badge';
 
 
-
-
-declare type User= {
-    picture: string,
-    name: string,
-    age: number
-};
-
-type BadgeProps={
-    user: User
-}
-
-class Badge extends Component<{user:{
-    picture: string,
-    name: string,
-    age: number
-}}>{
-
-    render(){
-        return(
-            <div>
-                <img src={this.props.user.picture} alt="Profile Picture" />
-                <h1>{this.props.user.name}</h1>
-                <h3>{this.props.user.age}</h3>
-            </div>
-            
-        )
-    }
-
-}
-
-
-
-
-class App extends Component<{name:number, user: User;}>{
+class App extends Component<{name:number, user: User}>{
 
     render(){
         return (
@@ -58,7 +26,7 @@ class App extends Component<{name:number, user: User;}>{
 let Jhon ={
     picture:'https://upload.wikimedia.org/wikipedia/en/6/63/IMG_%28business%29.svg',
     name:'Jhon Smith',
-    age:32
+    age:36
 }
 
 ReactDOM.render(

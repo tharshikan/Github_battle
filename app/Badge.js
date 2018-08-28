@@ -3,7 +3,7 @@ import React,{Component} from 'react';
 import ReactDom from 'react-dom';
 import { throws } from 'assert';
 
-declare type User= {
+export type User= {
     picture: string,
     name: string,
     age: number
@@ -13,7 +13,11 @@ type BadgeProps={
     user: User
 }
 
-class Badge extends Component<BadgeProps>{
+class Badge extends Component<{user:{
+    picture: string,
+    name: string,
+    age: number
+}}>{
 
     render(){
         return(
@@ -27,7 +31,6 @@ class Badge extends Component<BadgeProps>{
     }
 
 }
-
 
 
 export default Badge;
