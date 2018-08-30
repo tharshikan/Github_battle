@@ -1,28 +1,8 @@
-
 /* @flow */
-import React,{Component} from 'react';
+import React from 'react';
 import ReactDOM from "react-dom";
-import Badge from './Badge.js'
-import FriendsNotFriendsContainer from './FriendsNotFriendsContainer'
-import type {User} from './Badge';
+import {App} from "./App";
 
-
-class App extends Component<{name:number, user: User, people:Array<{name:string, isFriend:boolean}>}>{
-
-    render(){
-        return (
-            <div>
-                <div>
-                    Hello World Fist Program {this.props.name}
-                </div>
-                <Badge user={this.props.user}/>
-                <FriendsNotFriendsContainer users={this.props.people}/>
-            </div>
-            
-        )
-
-    }
-}
 
 let Jhon ={
     picture:'https://upload.wikimedia.org/wikipedia/en/6/63/IMG_%28business%29.svg',
