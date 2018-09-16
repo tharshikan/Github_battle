@@ -1,3 +1,68 @@
 body{
-    background: green;
+    display: block;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+.container{
+    max-width: 100%;
+    background: #add8e6;
+    margin: 0 auto;
+    
+}
+
+ul {
+    padding: 0;
+  }
+
+.group{
+  display: flex;
+  cursor:pointer;
+ 
+
+}
+
+.group li{
+    margin: 10px;
+    list-style-type: none;
+    
+}
+
+.popularTabs{
+    display:flex;
+    justify-content:center; 
+   
+   
+}
+
+.popularTabs li{
+    margin: 1em;
+    list-style-type:georgian;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.popular-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+
+.popular-item{
+   
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 150px;
+    
+  
+}
+.list-container{
+    margin:0 auto;
 }

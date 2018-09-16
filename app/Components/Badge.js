@@ -14,13 +14,10 @@ type BadgeProps = {
     user: User
 }
 
-class Badge extends Component<{
-    user: {
-        picture: string,
-        name: string,
-        age: number
-    }
-}> {
+class Badge extends Component<{ user: { picture: string, name: string, age: number } }> {
+
+
+
 
     render() {
         return (
