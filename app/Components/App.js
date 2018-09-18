@@ -6,6 +6,14 @@ import FriendsNotFriendsContainer from "./FriendsNotFriendsContainer";
 import * as PropTypes from "prop-types";
 import '../index.css'
 import { Popular } from "./Popular";
+import Nav from "./Nav";
+import { Home } from "./Home";
+import Battle from "./Battle";
+import Form from "./Form";
+import { BrowserRouter, Route } from 'react-router-dom';
+const Router = BrowserRouter;
+
+
 
 function HelloW(props: { name: number }) {
     return <div>
@@ -18,10 +26,24 @@ export class App extends Component<{ name: number, user: User, people: Array<{ n
     render() {
         return (
             <div className={"container"}>
+
                 <HelloW name={this.props.name} />
                 <Badge user={this.props.user} />
                 <FriendsNotFriendsContainer users={this.props.people} />
-                <Popular />
+
+
+
+                <Router>
+                    <div>
+                        <Nav />
+                        <Route exact path='/' component={Home} />
+                        <Route exact path='/popular' component={Popular} />
+                        <Route path='/battle' component={Battle} />
+                        <Route path='/form' component={Form} />
+                    </div>
+
+                </Router>
+
 
             </div>
 

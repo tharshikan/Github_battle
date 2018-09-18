@@ -1,7 +1,7 @@
 /* @flow */
 import React, { Component } from 'react';
 import { fetchPopularRepos } from '../utils/api'
-import * as config from '../config'
+import * as config from '../config';
 
 
 function PopularTabs(props) {
@@ -9,7 +9,7 @@ function PopularTabs(props) {
     var languages = ['All', 'Javascript', 'Ruby', 'Java', 'Css', 'Python'];
     return (
         <div>
-            <h1>Helllo</h1>
+            <h1>Popular!</h1>
             <ul className='popularTabs'>
                 {languages.map((lang) => (
                     <li

@@ -66,3 +66,78 @@ ul {
 .list-container{
     margin:0 auto;
 }
+
+.nav{
+    display:flex;
+
+}
+
+.nav li{
+    margin:10px;
+    list-style-type: none;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: red;
+}
+.active{
+ font-weight: bold;
+}
+
+.home-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.button{
+    color: #e6e6e6;
+    background: #0a0a0a;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    padding: 7px 0;
+    margin: 10px auto;
+    
+}
+
+.button:hover{
+   
+    background: linear-gradient(grey,#0a0a0a);
+    color: #fff;
+    text-decoration: none;
+  
+}
+
+.button:active{
+    transform: translateY(1px);
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.battle-container{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.player-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-label{
+font-size: 2em;
+}
+
+
