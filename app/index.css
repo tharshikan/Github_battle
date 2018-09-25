@@ -140,4 +140,41 @@ ul {
 font-size: 2em;
 }
 
+.smallbutton{
+    color: #e6e6e6;
+    background: #0a0a0a;
+    border: none;
+    font-size: 8px;
+    border-radius: 3px;
+    width: 100px;
+    text-align: center;
+    display: block;
+    padding: 7px 0;
+    margin: 10px auto;
+    
+}
+
+.smallbutton:hover{
+   
+    background: linear-gradient(grey,#0a0a0a);
+    color: #fff;
+    text-decoration: none;
+  
+}
+
+.smallbutton:active{
+    transform: translateY(1px);
+}
+
+.column{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.centerText{
+    text-align: center;
+}
+
 

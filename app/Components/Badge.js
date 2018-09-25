@@ -28,6 +28,7 @@ class Badge extends Component<{ user: { picture: string, name: string, age: numb
             </div>
 
         )
+
     }
 
 }

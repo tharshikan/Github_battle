@@ -10,6 +10,8 @@ import Nav from "./Nav";
 import { Home } from "./Home";
 import Battle from "./Battle";
 import Form from "./Form";
+import Results from "./Results"
+import Loading from "./Loading";
 import { BrowserRouter, Route } from 'react-router-dom';
 const Router = BrowserRouter;
 
@@ -38,8 +40,10 @@ export class App extends Component<{ name: number, user: User, people: Array<{ n
                         <Nav />
                         <Route exact path='/' component={Home} />
                         <Route exact path='/popular' component={Popular} />
-                        <Route path='/battle' component={Battle} />
+                        <Route exact path='/battle' component={Battle} />
                         <Route path='/form' component={Form} />
+                        <Route path='/battle/results' component={Results} />
+                        <Route path='/loading' component={Loading} />
                     </div>
 
                 </Router>

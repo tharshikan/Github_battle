@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { fetchPopularRepos } from '../utils/api'
 import * as config from '../config';
+import Loading from './Loading';
 
 
 function PopularTabs(props) {
@@ -96,7 +97,7 @@ export class Popular extends Component<{}, { selectedLanguage: string, repos: ?s
                     selectedLanguage={this.state.selectedLanguage} />
                 {this.state.repos
                     ? <ReposGrid repos={this.state.repos} />
-                    : "Loading"
+                    : <Loading />
                 }
 
 

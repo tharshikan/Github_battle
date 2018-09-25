@@ -17,6 +17,10 @@ export default function Nav() {
             <li>
                 <NavLink to='/form' activeClassName='active'>form</NavLink>
             </li>
+
+            <li>
+                <NavLink to='/loading' activeClassName='active'>Loading</NavLink>
+            </li>
         </ul>
     )
 }
