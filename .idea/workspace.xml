@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffdf905c-1170-4ff7-b096-e2d58591f877" name="Default Changelist" comment="reefactored app component into a class {commit only intellij}">
-      <change afterPath="$PROJECT_DIR$/app/Components/Loading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Components/Badge.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/Badge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Components/Battle.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/Battle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Components/Popular.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/Popular.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="ffdf905c-1170-4ff7-b096-e2d58591f877" name="Default Changelist" comment="reefactored app component into a class {commit only intellij}" />
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
